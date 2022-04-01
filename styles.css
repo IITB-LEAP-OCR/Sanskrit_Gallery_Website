@@ -33,7 +33,7 @@ h6 {
 
 .nav-item {
     padding: 0 3px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .nav-link {
@@ -65,7 +65,7 @@ h6 {
 /* Title Section */
 
 #title {
-    background-color: white;
+    background-color:white;
     color: black;
     text-align: left;
 }
@@ -177,3 +177,36 @@ margin-right: 6rem;
 }
 
 /* slider section ends */
+
+.grand_parent{
+    padding: 7% 15%;
+    text-align: center;
+    background-color:  #DAB88B;
+    
+}
+
+.parent{
+    width: 80vw;
+    height: auto;
+    margin: auto;
+   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.child{
+    height:auto;
+    background-color: white ;
+    flex: 1 1 200px;
+    margin: 20px;
+   
+    text-align: left;
+    border:solid #A97155 2px;
+}
+.c1{
+    margin-left: auto;
+}
+@media(max-width:768px){
+    .grand_parent{height: auto;}
+}
