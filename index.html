@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCR APPLICATION</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Bootstrap Scripts -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="loadfunction()">
+
+    <script>
+        function loadfunction() {
+            document.querySelector("#pre").style.display = "none";
+            document.querySelector("#lay").style.display = "none";
+            document.querySelector("#vis").style.display = "none";
+        }
+    </script>
+
+    <!-- Section 1 -->
+
+    <section id="title">
+
+        <div class="container-fluid">
+
+            <div class="container">
+                <!-- Nav Bar -->
+
+                <nav class="navbar navbar-expand-lg" >
+
+                    <a class="navbar-item" href="/">
+                        <!-- <img class="lp-badge" src="#" alt="logo" style="width: 6rem; height: 6rem;"> -->
+                        <h1  style="color:  #BE8C63; text-decoration: none; cursor: none;">ocr applications</h1>
+                      
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                  <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars" style="color: #BE8C63; font-size:28px;"></i>
+                  </span>
+                </button>
+
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Objectives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Apply</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Resources</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Title -->
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-6 align-middle">
+                        <h1 class="big-heading">Science and Heritage Research Initiative (SHRI)</h1>
+                        <h5 class="sub-heading">A Gallery for Scientific Sanskrit Texts in Indian Heritage with Multi-modal Features</h5>
+                        <h3 class="sub-heading"><i><b>Key Words</b></i>: Scientific literature in Sanskrit, AI-based Sanskrit OCR, Audio-embedded text, Information retrieval System for Sanskrit, Technical dictionary in Sanskrit, Interactive web-portal</h3>
+                    </div>
+                    <div class="col-lg-6 align-middle">
+                        <img src="images/ocr.jpg" style="width: 100%; display:block;" />
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Section 2 -->
+
+    <section id="section2">
+
+        <h2 class="section-heading text-center" style="font-size: 2.5rem;">About  The Project</h2>
+       
+        <div class="container my-4">
+            <div class="row d-flex justify-content-center" style="gap: 4rem;">
+                <div class="col col-lg-3 col-md-12 col-sm-12">
+                    <div class="card mx-auto" style="height: 25rem; width: 20rem;">
+                       
+                        <div class="card-body" style="padding-top: 0;">
+                           
+                            <p class="card-text " ><i><b>The continuous quest and insatiable thirst that Indians had for knowledge resulted in the creation of a huge corpus of both tangible and intangible heritage. While the intangible heritage in the form of yoga and other spiritual practices that got developed over ages in India is fairly known, and recorded in the annals of history, the scientific literature in diverse disciplines such as astronomy, mathematics, medicine, logic, arts, linguistics and so on have remained neglected and scantily studied. </b></i> </p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-3 col-md-12 col-sm-12">
+                    <div class="card mx-auto" style="height: 25rem; width: 20rem;">
+                       
+                        <div class="card-body" style="padding-top: 0;">
+                           
+                            <p class="card-text "><i><b>The Cell for Indian Sciences and Technology in Sanskrit (CISTS) at IIT Bombay established in 2002, primarily serves as a unique center dedicated to promote high-quality research in the vast scientific literature in Sanskrit. Through this proposed project we aim at creating a relevant technological ecosystem that aids the process of collection, preservation and digitization of texts and manuscripts pertaining to ancient scientific literature and their dissemination in various forms.</i></b> </p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-3 col-md-12 col-sm-12">
+                    <div class="card mx-auto" style="height: 25rem; width: 20rem;">
+                       
+                        <div class="card-body" style="padding-top: 0;">
+                           
+                            <p class="card-text "><i><b>We aim to create a digital space for the Scientific Heritage of India by providing the most significant texts as a digitally searchable, audio-embedded hypertext document gallery along with a Scientific Sanskrit lexicon bank for researchers and students of the premier universities and academic institutions of India to benefit.</i></b> </p>
+                           
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section class="analysis">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col col-lg-6 col-md-12 col-sm-12 text-center">
+                    <h1 class="doc">Key Objectives of the project</h1>
+                  
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+<!-- section slider -->
+<section id="testimonials">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="text-align: center;">
+        
+        <h4 class="d-block w-100 k" >	Create a collection of digital versions of the most significant sanskrit texts in various scientific domains starting from astronomy and mathematics, with multi-modal features which include...</li></ul></h4>
+         
+      </div>
+      <div class="carousel-item">
+        <h4 class="d-block w-100 k" ><ul> <li> Automatic character recognition based text from scanned images</li></ul></h4>
+         
+      </div>
+      <div class="carousel-item">
+        <h4 class="d-block w-100 k" >	<ul> <li> Highly reliable texts as a digital version that are thoroughly verified by domain experts </li></ul></h4>
+         
+      </div>
+      <div class="carousel-item">
+        <h4 class="d-block w-100 k" ><ul> <li>Ability to index and search within the scanned texts </li></ul></h3>
+         
+      </div>
+      <div class="carousel-item">
+        <h4 class="d-block w-100 k" ><ul> <li> Audio-embedded source text to enable both listening to the chant and a mode that enables learning to recite</li></ul></h4>
+         
+      </div>
+
+      <div class="carousel-item">
+        <h4 class="d-block w-100 k" >	<ul> <li> Texts hyperlinked and supplemented with digital dictionaries containing domain-specific technical terms in Sanskrit  </li></ul></h4>
+         
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+      <span class="sr-only"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+      <span class="sr-only"></span>
+    </a>
+  </div>
+</section>
+
+<!-- section2 slider -->
+
+
+<section id="test">
+    <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="text-align: center;">
+            
+            <h4 class="d-block w-100 k" >Development and application of the necessary technologies that are required to build the following...	</li></ul></h4>
+             
+          </div>
+          <div class="carousel-item">
+            <h4 class="d-block w-100 k" ><ul> <li>AI-based OCR technologies to scan the images of texts, books and manuscript copies in Sanskrit and turn them into searchable text</li></ul></h4>
+             
+          </div>
+          <div class="carousel-item">
+            <h4 class="d-block w-100 k" >	<ul> <li>Information retrieval system to index and search texts in Sanskrit</li></ul></h4>
+             
+          </div>
+          <div class="carousel-item">
+            <h4 class="d-block w-100 k" ><ul> <li>Creation of Sanskrit lexicon bank for the scientific texts</li></ul></h4>
+             
+          </div>
+          <div class="carousel-item">
+            <h4 class="d-block w-100 k" ><ul> <li>An interactive web platform to host the gallery of books along with audio-embedded digital version and deployment of a Sanskrit digital dictionary for domain-specific keywords </li></ul></h4>
+             
+          </div>
+    
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+          <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+          <span class="sr-only"></span>
+        </a>
+      </div>
+    </section>
+
+
+    
+   
+
+
+
+  </section>
+  <br>
+  
+<hr>
+    <!-- Section 4 -->
+
+    <!-- The Media start -->
+    <div class="blog-section p-tb" id="our-team">
+        <div class="container">
+            <div class="sec-title text-center">
+                <h3>Our Team</h3>
+                <h5>●	Prof K. Ramasubramanian, Principal Investigator</h5>
+            </div>
+        </div>
+        
+    </div>
+    <!-- The Media end -->
+
+    <section id="faqs">
+
+<div>
+    <h4 style="text-align: center;">Apply</h4>
+    <h5 style="text-align: center;">We're Hiring! Check HERE</h5>
+    <h4 style="text-align: center;">Resources  </h4>
+    <h4 style="text-align: center;">Contact</h4>
+    <h4 style="text-align: center;">For any queries about the project:</h4>
+
+    <h4 style="text-align: center;">Mail to: </h4>
+       
+
+</div>
+
+
+
+    </section>
+
+    <footer class="py-2 border-top" style="background: #DAB88B ;color: black;">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                <p class="mb-0 text-muted">&copy; 2022 OCR Application. All rights reserved.</p>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-2 text-muted">Medium To Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+</body>
+
+</html>

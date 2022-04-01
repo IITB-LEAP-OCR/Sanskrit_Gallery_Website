@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    box-sizing: border-box
+}
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+/* Navigation Bar */
+
+.lp-badge {
+    height: 50px;
+    width: 265px;
+}
+
+.navbar {
+    padding: 0 0 4.2rem;
+  
+}
+
+.nav-item {
+    padding: 0 3px;
+    font-size: 1.1rem;
+}
+
+.nav-link {
+    color: black;
+}
+
+
+
+/* Section 1 */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.big-heading {
+    font-size: 2.1rem;
+    line-height: 1.3;
+    font-weight: bold;
+    line-height: 145%;
+}
+
+.sub-heading {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+/* Title Section */
+
+#title {
+    background-color: #DAB88B;
+    color: black;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 2% 5% 2%;
+}
+
+
+/* Section 2 */
+
+#section2 {
+    padding: 4em 0;
+    background-color:  #DAB88B;
+}
+
+.card-deck {
+    margin: 5%;
+}
+
+
+/* Section 3 */
+
+.doc {
+    margin-top: 5rem;
+    /* font-family: 'Lobster', cursive; */
+}
+
+.dec {
+    /* font-family: 'Noto Serif', serif; */
+}
+
+hr {
+    border-top: 1px solid var(--white-color-3);
+    margin-left: 6rem;
+    margin-top: 10px;
+    margin-right: 6rem;
+}
+
+.card {
+    align-items: center;
+    max-width: 20rem;
+    overflow: hidden;
+    border-radius: 1px;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card-body {
+    text-align: left;
+}
+
+
+/************ our-team and contributor-section *******/
+
+#our-team {
+    /* background: linear-gradient(#000, #151515) !important; */
+    padding: 1rem;
+    background-color:  #DAB88B;
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+/* FAQs Section Starts */
+
+#faqs {
+    padding: 1.5rem;
+    justify-content: center
+}
+
+
+
+
+/* slider section */
+#testimonials{
+    padding: 7% 15%;
+text-align: center;
+background-color:  #DAB88B;
+margin-left: 6rem;
+margin-right: 6rem;
+
+}
+.k{
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+.part2{
+    margin-top: 20px;
+}
+
+#test{
+    margin-top: 50px;
+    padding: 7% 15%;
+    text-align: center;
+    background-color:  #DAB88B;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+/* slider section ends */
